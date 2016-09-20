@@ -1,0 +1,224 @@
+ <!DOCTYPE html>
+ 
+ <head>
+
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Louder</title>
+  <link rel="stylesheet" href="css/global.css" type="text/css">
+  <link rel="stylesheet" href="css/homepage.css" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
+  </head>
+
+  
+  <div id="content">
+  	<div class="logo">
+			<a href="index.html"><img src="images/WordLogoSmall.png" alt="Louder"></a>
+		</div>
+		
+		<div class="social">
+			<img src="images/shopping_cart.png" alt="Shopping">
+			<img src="images/fb.png" alt="Facebook">
+			<img src="images/tweet.png" alt="Twitter">
+		</div>
+		
+	<form id="searchbox">
+		<input id="search" type="text" placeholder="Type here">
+		<input id="submit" type="submit" value="Search">
+	</form>
+	</div>
+ 
+ <nav>
+	<ul>
+		<li><a href="index.html" class="active">Home</a></li>
+		<li><a href="#">Donate</a></li>
+		<li><a href="#">Instruments</a>
+			<ul>
+				<li><a href="#">Rental</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Lessons</a>
+			<ul>
+				<li><a href="#">Sign-up</a></li>
+				<li><a href="#">Tutor</a></li>
+				
+			</ul>
+		</li>
+		<li><a href="html/store.html">Store</a>
+			<ul>
+				<li><a href="#">Records</a></li>
+				<li><a href="#">Instruments</a></li>
+				<li><a href="#">Memorabilia</a></li>
+				<li><a href="#">Accessories</a></li>
+			</ul>
+		</li>
+		<li><a href="html/aboutus.html">About Us</a>
+		</li>
+		
+	</ul>
+</nav>
+
+<div id="show">
+ <style scoped>
+    #tech-slideshow {
+        height: 495px;
+        position: relative;
+        overflow: hidden;
+    }
+    #tech-slideshow > div {
+        height: 495px;
+        width: 4250px;
+        background: url('images/collage_bw_color.jpg');
+        position: absolute;
+        top: 0;
+        left: 0
+        height: 100%;
+        
+        -moz-transition:  opacity 0.5s ease-out; 
+           -o-transition: opacity 0.5s ease-out; 
+      -webkit-transition: opacity 0.5s ease-out; 
+          -ms-transition: opacity 0.5s ease-out; 
+    
+        /* Slow */
+        -webkit-animation: moveSlideshow 60s linear infinite;
+        -moz-animation:    moveSlideshow 60s linear infinite;
+        
+        -webkit-transform: translate3d(0,0,0); /* Performance */
+    
+    }
+    #tech-slideshow #tech-slideshow-1 {
+        /* Sprite */
+        background-position: 0 495px;
+        
+        /* Fast */
+        -webkit-animation: moveSlideshow 20s linear infinite;
+        -moz-animation:    moveSlideshow 20s linear infinite;
+    }
+    #tech-slideshow:hover #tech-slideshow-2 {
+        opacity: 0;
+    }
+    
+    @-webkit-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-3000px); 
+            -moz-transform:    translateX(-3000px); 
+            -ms-transform:     translateX(-3000px); 
+            -o-transform:      translateX(-3000px); 
+            transform:         translateX(-3000px); 
+        }
+    }
+    @-moz-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-3000px); 
+            -moz-transform:    translateX(-3000px); 
+            -ms-transform:     translateX(-3000px); 
+            -o-transform:      translateX(-3000px); 
+            transform:         translateX(-3000px); 
+        }
+    }
+	</style>
+	</div>
+<div id="page-wrap">
+		
+	<div id="tech-slideshow">
+        <div id="tech-slideshow-1"></div>
+        <div id="tech-slideshow-2"></div>
+	</div>
+</div>
+	
+	
+	
+    <div class="box" id="mission">
+      <h2 id="statement">Mission Statement</h2>
+      <p>
+		The Louder! Music Foundation is a music charity funded by people who want to strengthen the state of music education, people who believe music is an integral part of society and want to make music more accessible to everyone.
+		<br>The donations we receive allow us to provide instruments to school music classrooms, and after school programs. We select programs that are in-need, ongoing, sustainable and give more people the opportunity to make music.
+		Our overhead expenses are covered by sales revenue, including authentic celebrity music memorabilia. Our program expenses are covered by donations large and small.
+
+	  </p>
+    </div>
+	
+    <div class="box" id="middlebox">
+      <h2 id="indent">Store Hours</h2>
+		<p id="hours">
+			Monday-Friday: 8:00 AM - 5:00 PM<br>
+			Saturday: 9:00 AM - 5:00 PM<br>
+			Sunday: Closed
+		</p>
+	  <h2 id="indent2" >Location</h2>
+		<img src="images/map1.png" alt="location" id="loudermap">
+    </div>
+  
+    <div id="contact">
+		<h3>Contact</h3>
+		Louder<br>
+		1234 W Main St<br>
+		Bozeman, MT 59715<br>
+		<br>
+		406 987 2345<br>
+		<br>
+			<div id="email">
+				paulson2323@gmail.com<br>
+				white.brad17@gmail.com<br>
+			</div>
+	</div>
+	
+  
+<div id="footer">
+	<h3>Follow Us</h3>
+		<img src="images/fb2.png" alt="Facebook">
+		<img src="images/tweet2.png" alt="Twitter">
+	<div id="terms">
+      Web Design by White & Paulson <br>
+	  &copy; Louder! 1986-2013 All Rights Reserved
+	</div>
+ </div>
+	
+<div id="news">
+	<h3 id="events">Local Events</h3>
+		<table>
+			<tr>
+				<td>
+				Rich Mayo<br>
+				Backwoods Dreamers<br>
+				Smile Empty Soul<br>
+				Calista Singley<br>
+				Jeff Crosby<br>
+				</td>
+				
+				<td id="place">
+				Kountry Korner Cafe <br>
+				Flying C-Coop <br>
+				Main Street Arts <br>
+				Wild Joes Coffehouse <br>
+				Murray Bar<br>
+				</td>
+				
+				<td id="time">
+				@ &nbsp; 5:00 PM<br>
+				@ &nbsp; 5:30 PM<br>
+				@ &nbsp; 7:00 PM<br>
+				@ &nbsp; 7:00 PM<br>
+				@ &nbsp; 9:30 PM<br>
+				</td>
+			</tr>	
+		</table>
+</div>
+	<div class="clear">
+	</div>
+
+</html>

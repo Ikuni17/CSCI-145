@@ -1,0 +1,22 @@
+h1{
+	color:red;
+	border-bottom:5px solid;
+	text-align: center;
+	width:100%;
+	}
+h2{
+	color:blue;
+	border-bottom:3px solid;
+	}
+#leftdiv p{
+	padding-left: 25px;
+	}
+#rightdiv{
+	float:right;
+	width: 25%;
+	border: 2px solid blue;
+	}
+#leftdiv{
+	float:left;
+	width: 74.5%;
+	}

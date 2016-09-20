@@ -1,0 +1,27 @@
+body {
+	padding: 50px;
+}
+p{
+	width: 600px;
+	color:4F4F4F;
+	font-family: 'Belleza', sans-serif;
+	line-height:1.75;
+	}
+h1{
+	color:FF5308;
+	font-family: 'Raleway', sans-serif;
+	}
+h4{
+	color:FF6922;
+	font-family: 'Raleway', sans-serif;
+	}
+h2{
+	color:FF5700;
+	font-family: 'Raleway', sans-serif;
+	}
+ul{
+	color:4F4F4F;
+	font-weight: bold;
+	}
+	
+

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <title>Louder Store</title>
+  <link rel="stylesheet" href="../css/global.css" type="text/css">
+  <link rel="stylesheet" href="../css/store.css" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
+</head>
+
+
+
+	<div id="content">
+	
+		<div class="logo">
+			<a href="../index.html"><img src="../images/WordLogoSmall.png" alt="Louder"></a>
+		</div>
+		
+		<div class="social">
+			<img src="../images/shopping_cart.png" alt="Shopping">
+			<img src="../images/fb.png" alt="Facebook">
+			<img src="../images/tweet.png" alt="Twitter">
+		</div>
+		<form id="searchbox">
+		<input id="search" type="text" placeholder="Type here">
+		<input id="submit" type="submit" value="Search">
+	</form>
+		</div>
+
+	
+ <nav>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="#">Donate</a></li>
+		<li><a href="#">Instruments</a>
+			<ul>
+				<li><a href="#">Rental</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Lessons</a>
+			<ul>
+				<li><a href="#">Sign-up</a></li>
+				<li><a href="#">Tutor</a></li>
+				
+			</ul>
+		</li>
+		<li><a href="../html/store.html" class="active">Store</a>
+			<ul>
+				<li><a href="#">Records</a></li>
+				<li><a href="#">Instruments</a></li>
+				<li><a href="#">Memorabilia</a></li>
+				<li><a href="#">Accessories</a></li>
+			</ul>
+		</li>
+		<li><a href="../html/aboutus.html">About Us</a>
+		</li>
+		
+	</ul>
+</nav>
+		
+<div id="store">
+	
+	<div id="inside">
+<style scoped>
+    #tech-slideshow {
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+    #tech-slideshow > div {
+        height: 400px;
+        width: 2100px;
+        background: url('../images/MMWide.jpg');
+        position: absolute;
+        top: 0;
+        left: 0
+        height: 100%;
+        
+        -moz-transition:  opacity 0.5s ease-out; 
+           -o-transition: opacity 0.5s ease-out; 
+      -webkit-transition: opacity 0.5s ease-out; 
+          -ms-transition: opacity 0.5s ease-out; 
+    
+        /* Slow */
+        -webkit-animation: moveSlideshow 60s linear infinite;
+        -moz-animation:    moveSlideshow 60s linear infinite;
+        
+        -webkit-transform: translate3d(0,0,0); /* Performance */
+    
+    }
+    #tech-slideshow #tech-slideshow-1 {
+        /* Sprite */
+        background-position: 0 400px;
+        
+        /* Fast */
+        -webkit-animation: moveSlideshow 20s linear infinite;
+        -moz-animation:    moveSlideshow 20s linear infinite;
+    }
+    #tech-slideshow:hover #tech-slideshow-2 {
+        opacity: 0;
+    }
+    
+    @-webkit-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1000px); 
+            -moz-transform:    translateX(-1000px); 
+            -ms-transform:     translateX(-1000px); 
+            -o-transform:      translateX(-1000px); 
+            transform:         translateX(-1000px); 
+        }
+    }
+    @-moz-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1000px); 
+            -moz-transform:    translateX(-1000px); 
+            -ms-transform:     translateX(-1000px); 
+            -o-transform:      translateX(-1000px); 
+            transform:         translateX(-1000px); 
+        }
+    }
+</style>
+	
+<div id="page-wrap">
+		
+	<div id="tech-slideshow">
+        <div id="tech-slideshow-1"></div>
+        <div id="tech-slideshow-2"></div>
+	</div>
+</div>
+
+		</div>
+		<div class="categories">
+			<ul>
+				<li><a href="records.html">Records</a></li>
+				
+				<li><a href="memorabilia.html">Memorabilia</a></li>	
+				
+				<li><a href="instruments.html">Instruments</a></li>
+				
+				<li><a href="accessories.html">Accessories</a></li>
+				
+				<li><a href="bestsellers.html">Best Sellers</a></li>
+				
+				<li><a href="newarrivals.html">New Arrivals</a></li>
+			</ul>
+			
+			<div id="payment">
+			<img src="../images/visacard.png" alt="visa">
+			<img src="../images/mastercard.png" alt="mastercard">
+			<img src="../images/paypal_card.png" alt="paypal">
+		</div>
+		</div>
+		
+	<div class="popular">
+	<h2 id="items">Popular Items</h2>
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product123.html"><img src="../images/tuba.png" alt="Tuba"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product123.html">Antique Tuba</a></td>
+						</tr>
+						<tr>
+							<td>Price: $349.99</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product124.html"><img src="../images/darkside.jpg" alt="Dark Side"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product124.html">Original Dark Side of the Moon Vinyl</a></td>
+						</tr>
+						<tr>
+							<td>Price: $499.99</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product125.html"><img src="../images/zeppelin.jpg" alt="Zep IV"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product125.html">Original Led Zeppelin IV Vinyl</a></td>
+						</tr>
+						<tr>
+							<td>Price: $499.99</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product126.html"><img src="../images/deftones.jpg" alt="Deftones"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product126.html">Deftones - Koi No Yokan Vinyl</a></td>
+						</tr>
+						<tr>
+							<td>Price: $49.99</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product127.html"><img src="../images/triangle.png" alt="Triangle"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product127.html">Perfect Triangle</a></td>
+						</tr>
+						<tr>
+							<td>Price: $99.99</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product128.html"><img src="../images/zepmem.jpg" alt="Zep Mem"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product128.html">Led Zeppelin Memorabilia</a></td>
+						</tr>
+						<tr>
+							<td>Price: $599.99</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product130.html"><img src="../images/Drums.png" alt="Drums"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product130.html">Pearl Drums</a></td>
+						</tr>
+						<tr>
+							<td>Price: $899.99</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product131.html"><img src="../images/guitar2.jpg" alt="Dark Side"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product131.html">Antique Garth Brooks Acoustic Guitar</a></td>
+						</tr>
+						<tr>
+							<td>Price: $499.99</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td><a href="product132.html"><img src="../images/guitar3.jpg" alt="Electric Guitar"></a></td>
+						</tr>
+						<tr>
+							<td><a href="product132.html">Van Halen Guitar</a></td>
+						</tr>
+						<tr>
+							<td>Price: $499.99</td>
+						</tr>
+					</table>
+				</td>
+			</tr>	
+		</table>
+		</div>
+	</div>
+		
+	
+	
+		 <div id="contact">
+		<h3>Contact</h3>
+		Louder<br>
+		1234 W Main St<br>
+		Bozeman, MT 59715<br>
+		<br>
+		406 987 2345<br>
+		<br>
+			<div id="email">
+				paulson2323@gmail.com<br>
+				white.brad17@gmail.com<br>
+			</div>
+	</div>
+	
+  
+<div id="footer">
+	<h3 id="follow">Follow Us</h3>
+		<img src="../images/fb2.png" alt="Facebook">
+		<img src="../images/tweet2.png" alt="Twitter">
+	<div id="terms">
+	  Web Design by White & Paulson <br>
+	  &copy; Louder! 1986-2013 All Rights Reserved
+	</div>
+ </div>
+	
+<div id="news">
+	<h3 id="events">Local Events</h3>
+		<table>
+			<tr>
+				<td id="performer">
+				Rich Mayo<br>
+				Backwoods Dreamers<br>
+				Smile Empty Soul<br>
+				Calista Singley<br>
+				Jeff Crosby<br>
+				</td>
+				
+				<td id="place">
+				Kountry Korner Cafe <br>
+				Flying C-Coop <br>
+				Main Street Arts <br>
+				Wild Joes Coffehouse <br>
+				Murray Bar<br>
+				</td>
+				
+				<td id="time">
+				@ &nbsp; 5:00 PM<br>
+				@ &nbsp; 5:30 PM<br>
+				@ &nbsp; 7:00 PM<br>
+				@ &nbsp; 7:00 PM<br>
+				@ &nbsp; 9:30 PM<br>
+				</td>
+			</tr>	
+		</table>
+</div>
+	
+	<div class="clear">
+	</div>
+	
+
+
+</html>
